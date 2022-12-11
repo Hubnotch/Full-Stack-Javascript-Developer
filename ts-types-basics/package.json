@@ -1,0 +1,23 @@
+{
+  "name": "udacity",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "You'll need to:",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --config .prettierrc './**/*.js' --write",
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.12",
+    "prettier": "^2.8.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "axios": "^1.2.0"
+  }
+}
