@@ -1,6 +1,5 @@
 {
   "name": "udacity",
-  "type": "module",
   "version": "1.0.0",
   "description": "You'll need to:",
   "main": "index.js",
