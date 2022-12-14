@@ -4,6 +4,7 @@ import helmet from 'helmet';
 import cors, { CorsOptions } from 'cors';
 import rateLimiter from 'express-rate-limit';
 import routes from './routes/index'
+
 const limiter = rateLimiter({
     windowMs: 15 * 60 * 1000, // 15 minutes
     max: 100, // limit each IP to 100 requests per windowMs
@@ -30,10 +31,6 @@ app.use(limiter);
 
 
 app.use('/api',routes)
-app.get('/readcsv', (req, res) => {
-    
-})
-
 
 const port = 3000;
 app.listen(port, () => {
