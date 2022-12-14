@@ -8,8 +8,8 @@ describe('Tests for array utilities', () => {
         it('should add numbers in array and be truthy', () => {
             expect(arrays.addArr(numArr)).toBeTruthy();
         });
-        it('should add numbers in array and be 18', () => {
-            expect(arrays.addArr(numArr)).toBe(18);
+        it('should add numbers in array and be 19', () => {
+            expect(arrays.addArr(numArr)).toBe(19);
         });
     })
 
